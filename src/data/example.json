@@ -1,0 +1,150 @@
+[
+    {
+        "id": "1",
+        "direction": "inbound",
+        "from": "+33 6 12 34 56 78",
+        "to": "+33 1 23 45 67 89",
+        "call_type": "answered",
+        "duration": 120,
+        "is_archived": false,
+        "created_at": "2025-04-10T14:32:00Z"
+    },
+    {
+        "id": "2",
+        "direction": "outbound",
+        "from": "+33 1 23 45 67 89",
+        "to": "+33 6 98 76 54 32",
+        "call_type": "missed",
+        "duration": 0,
+        "is_archived": false,
+        "created_at": "2025-04-10T15:10:00Z"
+    },
+    {
+        "id": "3",
+        "direction": "inbound",
+        "from": "+33 7 55 44 33 22",
+        "to": "+33 1 23 45 67 89",
+        "call_type": "voicemail",
+        "duration": 45,
+        "is_archived": true,
+        "created_at": "2025-04-09T09:15:00Z",
+        "notes": [
+            {
+                "id": "note-1",
+                "content": "Customer left a message about their invoice"
+            }
+        ]
+    },
+    {
+        "id": "4",
+        "direction": "outbound",
+        "from": "+33 1 23 45 67 89",
+        "to": "+33 6 22 11 44 55",
+        "call_type": "answered",
+        "duration": 300,
+        "is_archived": false,
+        "created_at": "2025-04-10T16:20:00Z"
+    },
+    {
+        "id": "5",
+        "direction": "inbound",
+        "from": "+33 6 77 88 99 00",
+        "to": "+33 1 23 45 67 89",
+        "call_type": "missed",
+        "duration": 0,
+        "is_archived": false,
+        "created_at": "2025-04-10T17:45:00Z"
+    },
+    {
+        "id": "6",
+        "direction": "outbound",
+        "from": "+33 1 23 45 67 89",
+        "to": "+33 7 10 20 30 40",
+        "call_type": "answered",
+        "duration": 95,
+        "is_archived": false,
+        "created_at": "2025-04-11T08:05:00Z"
+    },
+    {
+        "id": "7",
+        "direction": "inbound",
+        "from": "+33 6 66 55 44 33",
+        "to": "+33 1 23 45 67 89",
+        "call_type": "voicemail",
+        "duration": 60,
+        "is_archived": false,
+        "created_at": "2025-04-11T09:40:00Z",
+        "notes": [
+            {
+                "id": "note-2",
+                "content": "Requested a callback regarding technical support"
+            }
+        ]
+    },
+    {
+        "id": "8",
+        "direction": "outbound",
+        "from": "+33 1 23 45 67 89",
+        "to": "+33 6 90 80 70 60",
+        "call_type": "answered",
+        "duration": 210,
+        "is_archived": true,
+        "created_at": "2025-04-11T11:25:00Z"
+    },
+    {
+        "id": "9",
+        "direction": "inbound",
+        "from": "+33 7 77 66 55 44",
+        "to": "+33 1 23 45 67 89",
+        "call_type": "answered",
+        "duration": 180,
+        "is_archived": false,
+        "created_at": "2025-04-11T13:15:00Z"
+    },
+    {
+        "id": "10",
+        "direction": "outbound",
+        "from": "+33 1 23 45 67 89",
+        "to": "+33 6 01 02 03 04",
+        "call_type": "missed",
+        "duration": 0,
+        "is_archived": false,
+        "created_at": "2025-04-11T14:50:00Z"
+    },
+    {
+        "id": "11",
+        "direction": "inbound",
+        "from": "+33 6 45 67 89 10",
+        "to": "+33 1 23 45 67 89",
+        "call_type": "answered",
+        "duration": 420,
+        "is_archived": false,
+        "created_at": "2025-04-11T16:10:00Z"
+    },
+    {
+        "id": "12",
+        "direction": "outbound",
+        "from": "+33 1 23 45 67 89",
+        "to": "+33 7 88 99 11 22",
+        "call_type": "voicemail",
+        "duration": 35,
+        "is_archived": true,
+        "created_at": "2025-04-12T09:00:00Z",
+        "notes": [
+            {
+                "id": "note-3",
+                "content": "Left a voicemail to confirm appointment details"
+            }
+        ]
+    },
+    {
+        "id": "13",
+        "direction": "inbound",
+        "from": "+33 6 12 98 76 54",
+        "to": "+33 1 23 45 67 89",
+        "call_type": "answered",
+        "duration": 150,
+        "is_archived": false,
+        "created_at": "2025-04-12T10:30:00Z"
+    }
+]
