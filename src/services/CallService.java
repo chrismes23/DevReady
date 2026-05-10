@@ -1,6 +1,7 @@
 package services;
 
 import java.util.ArrayList;
+import java.util.List;
 
 import models.Call;
 import repositories.Parser;
@@ -11,15 +12,15 @@ public class CallService {
         Parser.allCalls=Parser.readCalls();
     }
 
-    public ArrayList<Call> getAllCalls(){
-        return (ArrayList<Call>)Parser.allCalls.stream().filter((call)->call.archived).toList();
+    public List<Call> getAllCalls(){
+        return Parser.allCalls.stream().filter((call)->!call.archived).toList();
        
     }
     
     public Call getCallById(String callId){
         var calls=Parser.allCalls;
         for(Call call:calls){
-            if(call.id==callId){
+            if(call.id.equals(callId)){
                 return call;
             }
         }
