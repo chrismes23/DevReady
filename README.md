@@ -6,9 +6,9 @@ The Main class shows an example on calling the required methods from the service
 
 ## Running
 To run the demo open a terminal and execute the following commands:
-'''
+
 cd src
 javac -d bin Main.java
 java -cp bin Main
-'''
+
 
