@@ -1,5 +1,5 @@
 # DevReady
-Oficcial repository for projects about DevReady accelerator
+Official repository for projects about DevReady accelerator
 
 This project currently implements the assignment of second week of the accelerator.
 The Main class shows an example on calling the required methods from the services.
