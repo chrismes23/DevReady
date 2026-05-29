@@ -11,7 +11,7 @@ import models.Note;
 public class Parser {
     public static ArrayList<Call> allCalls;
     public static ArrayList<Call> readCalls(){
-        String fileContent=FileIO.readFile("data/example.json");
+        String fileContent=FileIO.readFile("src/main/java/data/example.json");
         JSONArray array=new JSONArray(fileContent);
         var callsList=new ArrayList<Call>();
         for(int i=0;i<array.length();i++){

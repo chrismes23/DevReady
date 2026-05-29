@@ -7,4 +7,18 @@ public class Call {
     public boolean archived;
     public long duration;
     public ArrayList<Note> notes=new ArrayList<Note>();
+    public String getId(){
+        return id;
+    }
+    public String getDirection(){
+        return direction;
+    }
+    public String getFrom(){
+        return from;
+    }
+    public String getTo(){
+        return to;
+    }
+    
+
 }
