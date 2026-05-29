@@ -1,10 +1,9 @@
 package gr.devready;
-import java.util.List;
+
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import models.Call;
 import services.CallService;
 
 @SpringBootApplication
