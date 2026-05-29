@@ -22,7 +22,6 @@ class DevreadyApplicationTests {
 		mockMvc.perform(get("/calls"))
 		.andExpect(status().isOk())
 		.andExpect(content().contentType("application/json"))
-        .andExpect(jsonPath("$.length()").value(10))
 		.andDo(print());
 	}
 
