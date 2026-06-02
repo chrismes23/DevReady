@@ -48,3 +48,6 @@ Other platforms
 ```
 
 There is also a CI pipeline that uses Github Actions to run the tests automatically
+
+## Known limitations
+There was an attempt to handle better 404 errors with JSON response but I couldn't manage to make it.
