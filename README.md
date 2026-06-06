@@ -9,7 +9,7 @@ To run the demo open a terminal and execute the following commands:
 
 for Windows:
 ``` bash
-.\mnvw.cmd spring-boot:run
+.\mvnw.cmd spring-boot:run
 ```
 for other platforms (hasn't been tested)
 ``` bash
@@ -44,7 +44,7 @@ Windows
 ```
 Other platforms
 ```
-./mnvw test
+./mvnw test
 ```
 
 There is also a CI pipeline that uses Github Actions to run the tests automatically
