@@ -68,7 +68,7 @@ class DevreadyApplicationTests {
 
 	@Test
 	void testArchiveCallNotFound() throws Exception{
-		mockMvc.perform(get("/calls/-1"))
+		mockMvc.perform(patch("/calls/-1/archive"))
 		.andExpect(status().isNotFound())
 		.andExpect(content().contentType("application/json"))
         
