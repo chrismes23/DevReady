@@ -35,7 +35,7 @@ The project was build with Java and Spring boot framework using Maven for buildi
 org.json library is used to parse JSON objects from file to memory
 
 ## Testing
-
+![CI](https://github.com/chrismes23/DevReady/actions/workflows/maven.yml/badge.svg)
 There have been written tests that test core functionality of the API with MockMvc
 To run them:
 Windows
